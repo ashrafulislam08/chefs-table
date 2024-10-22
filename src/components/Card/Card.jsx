@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = ({ recipe }) => {
+const Card = ({ recipe, addRecipeToQueue }) => {
   const {
     recipe_name,
     recipe_img,
@@ -40,12 +40,15 @@ const Card = ({ recipe }) => {
             <p className="font-xl">{preparing_time} minute</p>
           </div>
           <div className="flex items-center">
-            <i class="fa-solid fa-fire-flame-curved mr-2 text-2xl"></i>
+            <i className="fa-solid fa-fire-flame-curved mr-2 text-2xl"></i>
             <p className="font-xl">{calories} calorie</p>
           </div>
         </div>
         <div className="card-actions">
-          <button className="btn bg-green-400 rounded-full text-gray-800 px-8 text-xl mt-6 font-medium">
+          <button
+            onClick={() => addRecipeToQueue(recipe)}
+            className="btn bg-green-400 rounded-full text-gray-800 px-8 text-xl mt-6 font-medium"
+          >
             Want to Cook
           </button>
         </div>
