@@ -8,6 +8,8 @@ import Sidebar from "./components/Sidebar/Sidebar";
 function App() {
   const [recipeQueue, setRecipeQueue] = useState([]);
   const [preparedRecipe, setPreparedRecipe] = useState([]);
+  const [totalTime, setTotalTime] = useState(0);
+  const [totalCalories, setTotalCalories] = useState(0);
   const addRecipeToQueue = (recipe) => {
     const isExist = recipeQueue.find(
       (previousRecipe) => previousRecipe.recipe_id === recipe.recipe_id
@@ -30,9 +32,16 @@ function App() {
 
     setRecipeQueue(updatedQueue);
     setPreparedRecipe([...preparedRecipe, deletedRecipe]);
+    calculateTimeAndCalories(
+      deletedRecipe.preparing_time,
+      deletedRecipe.calories
+    );
   };
 
-  console.log(recipeQueue);
+  const calculateTimeAndCalories = (time, calory) => {
+    setTotalTime(totalTime + time);
+    setTotalCalories(totalCalories + calory);
+  };
   return (
     <div className="container mx-auto px-4">
       {/* Header */}
@@ -51,6 +60,8 @@ function App() {
           handleRemove={handleRemove}
           preparedRecipe={preparedRecipe}
           recipeQueue={recipeQueue}
+          totalTime={totalTime}
+          totalCalories={totalCalories}
         />
       </section>
     </div>

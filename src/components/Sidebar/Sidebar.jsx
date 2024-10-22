@@ -1,6 +1,12 @@
 import React from "react";
 
-const Sidebar = ({ recipeQueue, preparedRecipe, handleRemove }) => {
+const Sidebar = ({
+  recipeQueue,
+  preparedRecipe,
+  handleRemove,
+  totalTime,
+  totalCalories,
+}) => {
   return (
     <div className="md:1/3 border-2 rounded-2xl text-gray-600 p-2 bg-base-100">
       {/* Want to cook table */}
@@ -63,6 +69,13 @@ const Sidebar = ({ recipeQueue, preparedRecipe, handleRemove }) => {
                 <td>{recipe.calories} Calories</td>
               </tr>
             ))}
+
+            <tr className="border-none">
+              <td></td>
+              <td></td>
+              <td>Total Time = {totalTime}</td>
+              <td>Total Calories = {totalCalories}</td>
+            </tr>
           </tbody>
         </table>
       </div>
