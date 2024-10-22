@@ -14,8 +14,8 @@
         "Salt",
         "Pepper"
       ],
-      "preparing_time": "30 minutes",
-      "calories": "450 kcal"
+      "preparing_time": 30,
+      "calories": 450
     },
     {
       "recipe_img": "https://www.grocery.coop/sites/default/files/NCG_Dennis_Becker_Classic_Caesar_Salad_715_x_477.jpg",
@@ -29,8 +29,8 @@
         "1 chicken breast",
         "Caesar dressing"
       ],
-      "preparing_time": "20 minutes",
-      "calories": "350 kcal"
+      "preparing_time": 20,
+      "calories": 350
     },
     {
       "recipe_img": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2019/02/japanese-fluffy-pancakes-recipe-7077w-2-1024x683.jpg",
@@ -46,8 +46,8 @@
         "Butter",
         "Maple syrup"
       ],
-      "preparing_time": "25 minutes",
-      "calories": "300 kcal"
+      "preparing_time": 25,
+      "calories": 300
     },
     {
       "recipe_img": "https://getinspiredeveryday.com/wp-content/uploads/2023/03/Easy-Chicken-Curry-Get-Inspired-Everyday-13.jpg",
@@ -64,8 +64,8 @@
         "1 tsp cumin",
         "Rice"
       ],
-      "preparing_time": "40 minutes",
-      "calories": "600 kcal"
+      "preparing_time": 40,
+      "calories": 600
     },
     {
       "recipe_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGcD5VhAHG9nohDNWrV_08mUZ_IP6CuqytzQ&s",
@@ -81,8 +81,8 @@
         "200ml milk",
         "1 tsp baking powder"
       ],
-      "preparing_time": "1 hour",
-      "calories": "500 kcal"
+      "preparing_time": 60,
+      "calories": 500
     },
     {
       "recipe_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHslR4Nv3kvt7Sa77YQr8unDOfkWmeESZgZA&s",
@@ -97,8 +97,8 @@
         "Lemon juice",
         "Olive oil"
       ],
-      "preparing_time": "10 minutes",
-      "calories": "250 kcal"
+      "preparing_time": 10,
+      "calories": 250
     }
   ]
   
