@@ -8,7 +8,7 @@ export const Banner = () => {
         backgroundImage: 'url("https://i.ibb.co.com/3kYtv41/banner.png")',
       }}
     >
-      <div className="w-9/12 mx-auto flex flex-col justify-center items-center text-center h-full space-y-6 py-4">
+      <div className="w-9/12 mx-auto flex flex-col justify-center items-center text-center h-full space-y-6 py-14">
         <h1 className="font-bold text-white md:text-[3.25rem]">
           Discover an exceptional cooking class tailored for you
         </h1>
