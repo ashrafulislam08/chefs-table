@@ -1,0 +1,104 @@
+[
+    {
+      "recipe_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQefMjazgf3px2T6Eg5Cg3HOxodTrrbaFiLMQ&s",
+      "recipe_id": "001",
+      "recipe_name": "Spaghetti Bolognese",
+      "recipe_description": "A classic Italian pasta dish made with ground beef and tomato sauce.",
+      "ingredients": [
+        "200g spaghetti",
+        "150g ground beef",
+        "1 onion",
+        "2 garlic cloves",
+        "400g canned tomatoes",
+        "Olive oil",
+        "Salt",
+        "Pepper"
+      ],
+      "preparing_time": "30 minutes",
+      "calories": "450 kcal"
+    },
+    {
+      "recipe_img": "https://www.grocery.coop/sites/default/files/NCG_Dennis_Becker_Classic_Caesar_Salad_715_x_477.jpg",
+      "recipe_id": "002",
+      "recipe_name": "Caesar Salad",
+      "recipe_description": "A fresh, crisp salad with romaine lettuce, croutons, and Caesar dressing.",
+      "ingredients": [
+        "1 head romaine lettuce",
+        "50g Parmesan cheese",
+        "100g croutons",
+        "1 chicken breast",
+        "Caesar dressing"
+      ],
+      "preparing_time": "20 minutes",
+      "calories": "350 kcal"
+    },
+    {
+      "recipe_img": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2019/02/japanese-fluffy-pancakes-recipe-7077w-2-1024x683.jpg",
+      "recipe_id": "003",
+      "recipe_name": "Fluffy Pancakes",
+      "recipe_description": "Soft and fluffy pancakes perfect for breakfast, topped with syrup or fruit.",
+      "ingredients": [
+        "200g flour",
+        "1 egg",
+        "300ml milk",
+        "1 tbsp sugar",
+        "1 tsp baking powder",
+        "Butter",
+        "Maple syrup"
+      ],
+      "preparing_time": "25 minutes",
+      "calories": "300 kcal"
+    },
+    {
+      "recipe_img": "https://getinspiredeveryday.com/wp-content/uploads/2023/03/Easy-Chicken-Curry-Get-Inspired-Everyday-13.jpg",
+      "recipe_id": "004",
+      "recipe_name": "Chicken Curry",
+      "recipe_description": "A flavorful and spicy chicken curry made with a blend of Indian spices.",
+      "ingredients": [
+        "500g chicken",
+        "2 onions",
+        "3 garlic cloves",
+        "1 tbsp curry powder",
+        "400ml coconut milk",
+        "1 tsp turmeric",
+        "1 tsp cumin",
+        "Rice"
+      ],
+      "preparing_time": "40 minutes",
+      "calories": "600 kcal"
+    },
+    {
+      "recipe_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGcD5VhAHG9nohDNWrV_08mUZ_IP6CuqytzQ&s",
+      "recipe_id": "005",
+      "recipe_name": "Chocolate Cake",
+      "recipe_description": "A rich and moist chocolate cake, perfect for dessert.",
+      "ingredients": [
+        "200g flour",
+        "150g sugar",
+        "100g cocoa powder",
+        "2 eggs",
+        "100g butter",
+        "200ml milk",
+        "1 tsp baking powder"
+      ],
+      "preparing_time": "1 hour",
+      "calories": "500 kcal"
+    },
+    {
+      "recipe_img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHslR4Nv3kvt7Sa77YQr8unDOfkWmeESZgZA&s",
+      "recipe_id": "006",
+      "recipe_name": "Avocado Toast",
+      "recipe_description": "A simple and healthy breakfast option with mashed avocado on toast.",
+      "ingredients": [
+        "2 slices of bread",
+        "1 avocado",
+        "Salt",
+        "Pepper",
+        "Lemon juice",
+        "Olive oil"
+      ],
+      "preparing_time": "10 minutes",
+      "calories": "250 kcal"
+    }
+  ]
+  
